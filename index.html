@@ -1,0 +1,389 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>test</title>
+		
+		<link rel="icon" type="images" href="images\лабиринт.png">
+		
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+
+		<link rel="stylesheet" type="text/css" href="adaptive.css">
+
+		<script src="js\slider.js" type="text/javascript"></script>
+		
+		<script src="js\jquery-3.3.1.min.js"></script>
+		
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
+	</head>
+
+<body>
+	
+	<!--<div class="page-preloader" id="preloader">	
+
+				<div class="preloader-text">
+					 <div id="parentheses"> < <p id="words"></p> /> </div>
+				</div>
+
+				
+				<div class="preloader">
+					<div class="loader">
+						<span id="first-square"></span>
+						<span id="second-square"></span>
+						<span id="thirth-square"></span>
+						<span id="fourth-square"></span>
+					</div>
+				</div>
+
+				<div class="second-word">
+					<div class="second-title">
+						<h1>MAZE</h1>
+						<hr id="first-hr" color="#fff"align="left"/>
+						<hr id="second-hr" color="#fff"align="left"/>
+						<hr id="thirth-hr" color="#fff"align="left"/>
+					</div>
+				</div>
+		</div>-->
+
+	<header>
+	
+
+		<div class="logo">
+			<img src="images\программист.jpg">
+			<span>MAZE</span>
+			<hr align="right" color="white">
+		</div>	
+	
+	
+	
+		<div class="nav-pc">
+			<ul>
+				<li><a href="nav\about.html">About us</a><hr id="q" color="white"></li>
+				<li><a href="http://ci97953.tmweb.ru/">Blog</a><hr id="w" color="white"></li>
+				<li><a href="#">Contact</a><hr id="e" color="white"></li>
+				<li><a href="#">More</a><hr id="r" color="white"></li>
+			</ul>
+		</div>
+
+		<div class="nav-mob">
+			<img src="images/программист.jpg" id="avatar">
+			<hr color="#252728">
+			<ul>
+				<li id="q"><a href="nav\about.html" style="font-size: 15px;">About us
+				</a></li>
+				<li id="w"><a href="http://ci97953.tmweb.ru/" style="font-size: 15px;">Blog
+				</a></li>
+				<li id="e"><a href="#" style="font-size: 15px;">Contact
+				</a></li>
+				<li id="r"><a href="#" style="font-size: 15px;">More
+				</a></li>
+				<li id="t"><a href="#" style="font-size: 15px;">Settings
+				</a></li>
+			</ul>
+
+			<img src="images\user.png" id="icons-q">
+			<img src="images\portfolio.png" id="icons-w">
+			<img src="images\call.png" id="icons-e">
+			<img src="images\more.png" id="icons-r">
+			<img src="images\settings.png" id="icons-t">
+			<h6>©Copyright 2019 Maze</h6>
+		</div>
+
+
+		
+		<div class="hamburger">
+			<input type="checkbox"  id="check-menu" onclick = "check(this)"/>
+			<label for="check-menu"></label>			
+					<div  class="burger-line first"></div>
+					<div  class="burger-line second"></div>
+					<div  class="burger-line third"></div>
+					<div  class="burger-line fourth"></div>
+		</div>	
+	
+
+	</header>
+
+
+<content>
+	<div class="container">
+		<div class="box">
+			<h1>Lorem ipsum dolor
+			sit amet, consectetur adipiscing elit</h1>
+			<h3>18 may 2019 Sunt inventore</h3>
+				
+				<!--<div class="photo">
+					<img src="images\vector pc.png" onclick="f1()">
+				</div>-->
+
+<div class="slideshow-container">
+	<div class="mySlides-fade">
+    <img src="images\citate.png" class="photo">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides-fade">
+    <img src="images\pc.png" class="photo">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides-fade">
+    <img src="images\comp.png" class="photo">
+    <div class="text">Caption Three</div>
+  </div>
+  <div class="under"></div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#9001</a>
+  <a class="next" onclick="plusSlides(1)">&#9002</a>
+
+
+<br>
+
+
+<div class="button">
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+</div>
+</div>
+		<div class="page-paragraph">	
+			<hr>
+				<div class="paragraph">
+					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam debitis deserunt libero dolor quis tempore excepturi nulla quo voluptatum inventore. Et amet eos soluta voluptatem suscipit quisquam laboriosam officia consectetur debitis distinctio ratione alias sapiente fugit esse, explicabo dolore reprehenderit expedita adipisci laborum magni quasi, ad at. In voluptatibus voluptate rem sint quasi amet tenetur eos, dicta possimus totam laboriosam, similique blanditiis cupiditate excepturi, tempore, doloremque perferendis pariatur tempora aut quia inventore error beatae. Quibusdam aut incidunt veniam, rerum blanditiis ab, iure recusandae illo ducimus expedita ratione eaque voluptas accusamus magni vitae eligendi eius aspernatur voluptatibus, unde et, suscipit quos quod corporis.</p>
+						<hr>
+					</div>
+				</div>	
+			</div>
+
+			
+			<div class="desk-page">	<!--Общий класс для карточек-->
+				
+				<div class="desk"><!--Верхний ярус-->
+					
+					<div class="wrap"> <!--Обертка для карточки-->
+					    <div class="cart"> <!--Сама карточка -->
+					      	<div class="front"><img src="images\nintendo.jpg" ></div> <!--Фронтальная сторона карточки-->
+					      	<div class="back"><img src="images\с бородой.jpg"></div> <!--Обратная сторона карточки-->
+					    </div>
+					</div>
+
+					<div class="wrap"> <!--Обертка для карточки-->
+					    <div class="cart"> <!--Сама карточка -->
+					      	<div class="front"><img src="images\gadgets.jpg" ></div> <!--Фронтальная сторона карточки-->
+					      	<div class="back"><img src="images\с бородой.jpg"></div> <!--Обратная сторона карточки-->
+					    </div>
+					</div>
+
+					<div class="wrap"> <!--Обертка для карточки-->
+					    <div class="cart"> <!--Сама карточка -->
+					      	<div class="front"><img src="images\pool room.jpg" ></div> <!--Фронтальная сторона карточки-->
+					      	<div class="back"><img src="images\с бородой.jpg"></div> <!--Обратная сторона карточки-->
+					    </div>
+					</div>
+
+					<div class="wrap"> <!--Обертка для карточки-->
+					    <div class="cart"> <!--Сама карточка -->
+					      	<div class="front"><img src="images\trash-man.jpg" ></div> <!--Фронтальная сторона карточки-->
+					      	<div class="back"><img src="images\с бородой.jpg"></div> <!--Обратная сторона карточки-->
+					    </div>
+					</div>
+				
+				</div>
+
+				<div class="gap">
+					
+					<div class="wrap"> <!--Обертка для карточки-->
+					    <div class="cart"> <!--Сама карточка -->
+					      	<div class="front"><img src="images\trash-man.jpg" ></div> <!--Фронтальная сторона карточки-->
+					      	<div class="back"><img src="images\с бородой.jpg"></div> <!--Обратная сторона карточки-->
+					    </div>
+					</div>
+
+					<div class="wrap"> <!--Обертка для карточки-->
+					    <div class="cart"> <!--Сама карточка -->
+					      	<div class="front"><img src="images\trash-man.jpg" ></div> <!--Фронтальная сторона карточки-->
+					      	<div class="back"><img src="images\с бородой.jpg"></div> <!--Обратная сторона карточки-->
+					    </div>
+					</div>
+
+					<div class="wrap"> <!--Обертка для карточки-->
+					    <div class="cart"> <!--Сама карточка -->
+					      	<div class="front"><img src="images\trash-man.jpg" ></div> <!--Фронтальная сторона карточки-->
+					      	<div class="back"><img src="images\с бородой.jpg"></div> <!--Обратная сторона карточки-->
+					    </div>
+					</div>
+
+					<div class="wrap"> <!--Обертка для карточки-->
+					    <div class="cart"> <!--Сама карточка -->
+					      	<div class="front"><img src="images\trash-man.jpg" ></div> <!--Фронтальная сторона карточки-->
+					      	<div class="back"><img src="images\с бородой.jpg"></div> <!--Обратная сторона карточки-->
+					    </div>
+					</div>
+
+				</div>	
+			
+			</div>
+
+		</div>
+
+	</div>
+				
+
+		<div class="sidebar">
+			
+			<div class="side1">	
+				<img src="images\кирка.jpg">
+				<h2>Проектирование 3D-моделей в Fusion 360</h2>
+				<a href="#"><h3>Прочитать</h3></a>		
+			</div>
+			
+			<div class="side2">
+				<h2 id="z">،،</h2>
+				<h2 id="p">Самая большая глупость — это делать то же самое и надеяться на другой результат</h2>
+				<h2 id="x">٫٫</h2>
+				<p>©Альберт Эйнштейн</p>
+			</div>
+
+			<div class="side3">
+				<h3>Новости</h3>
+				<hr>
+				<ul class="новости">		
+					<li id="яндекс" ><img 
+						src="images\с бородой.jpg" alt=""><a href="#">
+						<h4>Lorem ipsum dolor</h4>
+					</a></li>
+					
+					<li id="iphone"><img
+					 src="images\шестерни.jpg" alt=""><a  href="#">
+						<h4>Lorem ipsum dolor</h4>
+					</a></li>
+					
+					<li id="almaz"><img src="images\алмаз.png" alt=""><a href="#">
+						<h4>Lorem ipsum dolor</h4>
+					</a></li>
+					
+					<li><img src="images\lampa.png" alt=""><a href="#">
+						<h4>Lorem ipsum dolor.</h4>
+					</a></li>
+				</ul>
+				
+				<a class="side3-a" style="text-decoration: none;"
+				href="#">		
+					<h3 id="all-news">Все новости</h3>
+				</a>
+			
+			</div>
+
+				<div class="side4">
+					<main>
+						<h2> Quod at odit, facere earum sed magni</h2>
+							<hr color="#a3a3a3">
+							
+							<div class="icons">
+								<ul>
+									<li><img id="html" src="images\HTML.png"></li>
+									<li><img id="css" src="images\css.png"></li>
+									<li><img id="js" src="images\js.png"></li>
+								</ul>
+							</div>
+						
+						<div class="block-section">
+							<div class="section"> 
+								<img src="images\лабиринт.png">
+								<div class="layer"><h3 id="a">Наведи сюда</h3></div>
+							</div>
+						</div>	
+					</main>
+				</div>
+		
+		</div>
+	</content>
+	
+	
+
+	<footer>
+		
+		<div class="over">
+			
+			<div class="About">
+				<h1>About</h1>
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Careers</a></li>
+						<li><a href="#">Corporate sales</a></li>
+						<li><a href="#">Where to buy</a></li>
+					</ul>
+			</div>
+			
+			<div class="Support">
+				<h1>Support</h1>
+					<ul>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Returns</li>
+						<li><a href="#">Warranty</li>
+						<li><a href="#">Product Registration</li>
+						<li><a href="#">Help</li>
+					</ul>
+			</div>
+
+			<div class="Legal">
+				<h1>Legal</h1>
+					<ul>
+						<li><a href="#">Privacy</a></li>
+						<li><a href="#">Terms</a></li>
+						<li><a href="#">Patents</a></li>
+					</ul>
+			</div>
+
+			<div class="Other">
+				<h1>Other</h1>	
+					<ul>
+						<li><a href="#">Account</a></li>
+						<li><a href="#">Affiliate Program</a></li>
+					</ul>
+			</div>
+		
+		</div>	
+
+			<div class="social">
+				<ul>
+					<li><a href="https://www.instagram.com/alex_kos971"><img id="insta" src="images\инста2.png"></a></li>
+					<li><a href="https://vk.com/id326901191"><img id="vk" src="images\вк3.png"></a></li>
+					<li><a href="https://www.facebook.com/profile.php?id=100017170094772&fref=pb&hc_location=friends_tab"><img id="face" src="images\face3.png"></a></li>
+					<li><a href="+380632167790"><img id="telega" src="images\телега3.png"></a></li>
+				</ul>
+			</div>
+
+		<div class="copyright">
+			<h2>©2018 Maze. All rights reserved.</h2>
+			<h3>Side by AlexKos</h3>
+		</div>
+	
+
+
+	</footer>
+
+
+	<script>
+		
+	$('#check-menu').on('click', function(){
+		$('.nav-mob').toggleClass('menu-active');
+		$('.menu-active').slideRight(1000);
+		//$('.container').toggleClass('container-active');
+	});
+
+		jQuery(document).ready(function() {
+			var typed = new Typed("#words", {
+		   	strings: ["hello - world", "Max Lox", "Please, rate my page"],
+		   	typeSpeed: 100,
+		   	backSpeed: 40
+		  });
+		});
+	</script>
+		
+	
+
+</body>
+</html>
