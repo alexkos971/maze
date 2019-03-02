@@ -3,6 +3,7 @@
   html {
     max-width: 750px;
     height: auto;
+	overflow-x: hidden;
   } 
 
 
