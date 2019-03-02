@@ -1,18 +1,10 @@
 @media screen and (max-width: 750px) {
   
   html {
-    max-width: 750px;
-    height: auto;
-	overflow-x: hidden;
-  } 
-
-
-  header {
-    position: relative;
-    top: -15px;
-    height: 15px;
     width: 100%;
-  }
+    height: auto;
+    overflow-x: hidden;
+  } 
 
   .page-preloader {
     display: inline-block;
@@ -144,8 +136,8 @@
     width: 200px;
     height: 1000%;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 7px;
+    right: -30px;
     transform: translateX(100%);
     transition: 0.5s;
   }
@@ -317,7 +309,21 @@
     }
 
 
+  header {
+    position: relative;
+    top: -15px;
+    width: 100%;
+  }
 
+  .head {
+    height: 25px;
+    width: 100%;
+  }
+
+  .logo {
+    position: relative;
+    top: 5px;
+  }  
 
 
   .logo img {
@@ -365,7 +371,7 @@
 
   .burger-line {
     position: absolute;
-    top: 26px;
+    top: 31px;
     right: 25px;
     width: 25px;
     height: 2px;
@@ -373,39 +379,39 @@
     transition: 0.5s all;
   }
   .second, .third {
-        top: 34px;
+        top: 40px;
     }
         .fourth {
-            top: 42px;
+            top: 49px;
         }
 
 
- 	.sidebar {
- 		display: block;
- 		width: 90%;
- 		margin: 0 auto;
- 		position: relative;
- 		top: 370px;
- 	}
+  .sidebar {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    top: 370px;
+  }
 
- 	.side1 {
- 		width: 	100%;
- 	}
+  .side1 {
+    width:  100%;
+  }
 
- 	.side2 {
- 		width: 100%;
- 	}
+  .side2 {
+    width: 100%;
+  }
 
- 	.side3 {
- 		width: 100%;
- 	}
+  .side3 {
+    width: 100%;
+  }
 
- 	content {
- 		display: block;
- 		width: 100%;
+  content {
+    display: block;
+    width: 100%;
     position: relative;
     top: -15px;
- 	}
+  }
 
   .container {
     width: 100%;
@@ -420,28 +426,28 @@
     opacity: .2;
   }
 
- 	.box {
- 		width: 100%;
+  .box {
+    width: 100%;
     height: 100%;
- 		margin: 0 auto;
- 		margin-top: 20px;
+    margin: 0 auto;
+    margin-top: 20px;
     padding-bottom: -155px;
- 	}
+  }
 
- 	.box  h1 {
- 		font-size: 16px;
- 		padding: 10px;
- 		text-align: all;
+  .box  h1 {
+    font-size: 16px;
+    padding: 10px;
+    text-align: all;
     font-family: sans-serif;
     word-spacing: -1px;
     line-height: 20px;
- 	}
+  }
 
- 	.box  h3 {
- 		font-size: 14px;
- 		margin-left: 10px;
- 		margin-top: 10px; 
- 	}
+  .box  h3 {
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 10px; 
+  }
 
     .box  hr {
         margin-top: 380px;
@@ -458,7 +464,7 @@
   }
 
 
- 	.slideshow-container img {
+  .slideshow-container img {
         max-width: 100%;
         height: auto;
         top: 0px;
@@ -502,50 +508,50 @@
     margin-bottom: 50px;
   }
 
- 	.paragraph p {
- 		font-size: 17px;
- 		margin-left: 10px;
+  .paragraph p {
+    font-size: 17px;
+    margin-left: 10px;
     text-align: justify;
- 		margin-right: 10px;
- 		margin-top: 20px;
+    margin-right: 10px;
+    margin-top: 20px;
     margin-bottom: -5px;
- 	}
+  }
 
- 	.paragraph hr {
- 		position: relative;
+  .paragraph hr {
+    position: relative;
     margin-top: 5px;
     margin-bottom: -5px;
- 	}
+  }
 
- 	main {
+  main {
         display: none;
     }
 
 
     .section {
-	    width: 110px;
-	    height: 10px;
-	    position: relative;
-	    top: -10px;
-	    cursor: pointer;     
+      width: 110px;
+      height: 10px;
+      position: relative;
+      top: -10px;
+      cursor: pointer;     
     }
     
-	.layer {
-		width: 110px;
-		height: 10px;      
-	}
+  .layer {
+    width: 110px;
+    height: 10px;      
+  }
 
-	#a {
-		font-size: 12px;
+  #a {
+    font-size: 12px;
         top: -15px;
-	}
+  }
 
-	.section img {
-		width: 25px;
-		height: 25px;
+  .section img {
+    width: 25px;
+    height: 25px;
     top: -6px;
     left: -7px;
-	}
+  }
 
     .sidebar {
         margin-top: -340px;

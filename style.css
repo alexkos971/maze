@@ -219,6 +219,10 @@ body {
 
 
 header {
+    
+}
+
+.head {
     width: 90%;
     height: 30px;
     margin: 0 auto;
@@ -266,6 +270,7 @@ span {
     list-style: none;
     position: relative;
     top: -15px;
+    margin: 0 auto;
     text-align: center;
 }
 
@@ -361,6 +366,7 @@ label {
 content {
     width: 90%;/*1120px*/
     margin: 0 auto;
+    
     justify-content: center;
     display: flex;
 }
