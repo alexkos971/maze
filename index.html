@@ -2,6 +2,8 @@
 <html>
 	<head>
 		<title>test</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 		<link rel="icon" type="images" href="images\лабиринт.png">
 		
@@ -58,25 +60,26 @@
 		<div class="nav-pc">
 			<ul>
 				<li><a href="nav\about.html">About us</a><hr id="q" color="white"></li>
-				<li><a href="http://ci97953.tmweb.ru/">Blog</a><hr id="w" color="white"></li>
+				<li><a href="C:\Documents and Settings\User\Рабочий стол\программирование\portfolio\index.html">Porfolio</a><hr id="w" color="white"></li>
 				<li><a href="#">Contact</a><hr id="e" color="white"></li>
 				<li><a href="#">More</a><hr id="r" color="white"></li>
 			</ul>
 		</div>
 
 		<div class="nav-mob">
-			<img src="images/программист.jpg" id="avatar">
-			<hr color="#252728">
+			<hr id="glide" color="#fff">
+			<hr id="glide-2" color="#fff">
+
 			<ul>
-				<li id="q"><a href="nav\about.html" style="font-size: 15px;">About us
+				<li id="q"><a href="nav\about.html">About us
 				</a></li>
-				<li id="w"><a href="http://ci97953.tmweb.ru/" style="font-size: 15px;">Blog
+				<li id="w"><a href="C:\Documents and Settings\User\Рабочий стол\программирование\portfolio\index.html">Porfolio
 				</a></li>
-				<li id="e"><a href="#" style="font-size: 15px;">Contact
+				<li id="e"><a href="#">Contact
 				</a></li>
-				<li id="r"><a href="#" style="font-size: 15px;">More
+				<li id="r"><a href="#">More
 				</a></li>
-				<li id="t"><a href="#" style="font-size: 15px;">Settings
+				<li id="t"><a href="#">Settings
 				</a></li>
 			</ul>
 
@@ -139,14 +142,14 @@
 <br>
 
 
-<div class="button">
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-</div>
+	<div class="button">
+		<!-- The dots/circles -->
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+	</div>
 </div>
 		<div class="page-paragraph">	
 			<hr>
@@ -186,7 +189,10 @@
 					<div class="wrap"> <!--Обертка для карточки-->
 					    <div class="cart"> <!--Сама карточка -->
 					      	<div class="front"><img src="images\trash-man.jpg" ></div> <!--Фронтальная сторона карточки-->
-					      	<div class="back"><img src="images\с бородой.jpg"></div> <!--Обратная сторона карточки-->
+					      	<div class="back">
+					      		<img src="images\с бородой.jpg" id="cart-4">
+								<p id="cart-4-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+					      	</div>
 					    </div>
 					</div>
 				
@@ -371,6 +377,11 @@
 	$('#check-menu').on('click', function(){
 		$('.nav-mob').toggleClass('menu-active');
 		$('.menu-active').slideRight(1000);
+
+
+		var active = ('#glide');
+			active.toggleClass('.active');
+		//$('.contant').css('opacity', '.2');
 		//$('.container').toggleClass('container-active');
 	});
 

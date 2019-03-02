@@ -1,10 +1,16 @@
 @media screen and (max-width: 750px) {
   
+  html {
+    max-width: 750px;
+    height: auto;
+  } 
+
+
   header {
-  position: relative;
-  top: -15px;
-  height: 15px;
-  width: 100%;
+    position: relative;
+    top: -15px;
+    height: 15px;
+    width: 100%;
   }
 
   .page-preloader {
@@ -101,24 +107,25 @@
   }
    
   .typed-cursor {
-    font-size: 23px;
-    top: -3px;
+    font-size: 15px;
+    top: -5px;
+    left: 1px;
   } 
 
   #parentheses {
-    font-size: 22px;
+    font-size: 15px;
     top: 150px;
     
   }
 
 
   #parentheses p {
-    font-size: 22px;
-    margin-left: 5px;
+    font-size: 15px;
+    margin-left: 3px;
   }
 
   #words {
-    top: -22px;
+    top: -17px;
   }
 
 
@@ -132,7 +139,7 @@
     line-height: 15px;
     letter-spacing: 2px;
     z-index: 3;
-    background-color: #3e4042;
+    background-color: #303133;
     width: 200px;
     height: 1000%;
     position: absolute;
@@ -142,22 +149,73 @@
     transition: 0.5s;
   }
 
+  #glide {
+    transform: rotate(90deg);
+    position: relative;
+    top: 115px;
+    left: -92px;
+    animation: hr 1s ease;  
+  }
+      #glide-2 {
+        transform: rotate(90deg);
+        position: relative;
+        top: 130px;
+        left: -92px;
+        animation: hr 1s ease;  
+      }
+
+  .active {
+    animation: hr 1s ease;
+  }
+
+
+  @keyframes hr {
+    0% {
+      top: 100px;
+    }
+
+    10% {
+      top: 110px;
+    }
+
+    30% {
+      top: 140px;
+    }
+
+    100% {
+      top: 250px;
+    }
+  }
+
+
+
+
+
+  .nav-mob ul {
+    position: relative;
+    top: -60px;
+  }
+
   .nav-mob li {
     list-style: none;
+    width: 200px;
+    position: relative;
+    left: -40px;
   }
 
   .nav-mob li:hover {
-    background-color: #515151;
+    background-color: #626870;
   }
 
   #avatar {
     width: 200px;
-    height: 150px;
+    height: 180px;
     border-radius: 0%;
     position: relative;
-    top: 46px;
+    top: 0px;
     left: 0%;
   }
+
 
   .nav-mob img {
       width: 22px;
@@ -168,18 +226,19 @@
       top: -110px;
       margin-bottom: 17px;
     }
+   
+   .nav-mob li:hover #icons-q{
+      transform: rotate(360deg);
+    }
 
-
-
-  .menu-active li {
-    list-style: none;
-    position: relative;
-    font-family: Roboto slab,serif;
-    left: -20px;
-    width: 100%;
-    position: relative;
-    
+  .nav-mob li a {
+      font-family: Roboto,serif;
+      font-size: 15px;
+      position: relative;
+      top: 2px;
+      left: 20px;
   } 
+
 
 
   .menu-active {
@@ -190,12 +249,13 @@
     .menu-active hr {
       position: relative;
       width: 90%;
-      top: 50px;
+      top: 40px;
   }
   #q {
     position: relative;
     top: 45px;
     height: 30px;
+    width: 300px;
   }
     #w {
       position: relative;
@@ -219,30 +279,40 @@
       }
 
   #icons-q {
-    top: -135px;
+    top: -189px;
   }
     #icons-w {
-      top: -135px;
+      top: -189px;
     }
       #icons-e {
-        top: -132px;
+        top: -187px;
       }
         #icons-r {
-          top: -130px;
+          top: -185px;
         }
           #icons-t {
-            top: -130px;
+            top: -185px;
           }
 
 
     .menu-active h6 {
-      font-size: 12px;
-      font-family: Helvetica;
+      font-size: 10px;
+      font-family: sans-serif;
       font-size: 11px;
       color: #fff;
       text-align: center;
       position: relative;
-      top: -130px;
+      top: -150px;
+    }
+
+    .nav-mob h6 {
+      font-size: 10px;
+      font-family: sans-serif;
+      font-size: 10px;
+      color: #fff;
+      text-align: center;
+      position: relative;
+      top: -170px;
     }
 
 
@@ -279,7 +349,7 @@
     display: block;
     position: absolute;
     top: 15px;
-    right: 30px;
+    right: 20px;
     width: 40px;
     height: 35px;
     cursor: pointer;
@@ -358,9 +428,10 @@
  	}
 
  	.box  h1 {
- 		font-size: 18px;
+ 		font-size: 16px;
  		padding: 10px;
- 		text-align: justify;
+ 		text-align: all;
+    font-family: sans-serif;
     word-spacing: -1px;
     line-height: 20px;
  	}
