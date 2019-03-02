@@ -1,6 +1,12 @@
 @media screen and (max-width: 750px) {
   
   html {
+    max-width: 750px;
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  body {
     width: 100%;
     height: auto;
     overflow-x: hidden;
@@ -327,8 +333,8 @@
 
 
   .logo img {
-   width: 26px;
-   height: 26px;
+   width: 28px;
+   height: 28px;
    position: relative;
    top: -2;
    left: -7px;
@@ -338,13 +344,13 @@
   .logo hr {
    margin-top: -10px;
    margin-right: 9px; 
-   width: 62px;
+   width: 74px;
   }
 
   span {
     color: #f7f7f7;
     font-family: Roboto Slab,serif;
-    font-size: 20px;
+    font-size: 23px;
     position: relative;
     letter-spacing: 2px;
     top: -12px;
@@ -407,6 +413,7 @@
   }
 
   content {
+    justify-content: space-between;
     display: block;
     width: 100%;
     position: relative;
@@ -428,69 +435,62 @@
 
   .box {
     width: 100%;
-    height: 100%;
+    height: auto;
     margin: 0 auto;
     margin-top: 20px;
-    padding-bottom: -155px;
   }
 
   .box  h1 {
-    font-size: 16px;
+    font-size: 23px;
     padding: 10px;
     text-align: all;
     font-family: sans-serif;
     word-spacing: -1px;
-    line-height: 20px;
+    line-height: 28px;
   }
 
   .box  h3 {
-    font-size: 14px;
+    font-size: 18px;
     margin-left: 10px;
     margin-top: 10px; 
   }
 
-    .box  hr {
-        margin-top: 380px;
-    }
-
 
   .slideshow-container {
-    height: 300px;
+    height: auto;
+    position: relative;
     top: -30px;
+    margin-bottom: 20px;
   }
-
-  .mySlides-fade {
-    margin-bottom: 10px;
-  }
-
 
   .slideshow-container img {
-        max-width: 100%;
-        height: auto;
-        top: 0px;
-        margin-top: 5px;
+    max-width: 100%;
+    height: auto;
+    top: 0px;
+    margin-top: 5px;
+    margin: 0 auto;
     }
 
   .prev, .next {
      display: none;
   }
-
+ 
   .text {
     display: none;
   }
 
   .button {
     position: relative;
+    top: -15px;
     width: 100%;
     left: 0%; 
-    margin-top: 10px;
     display: inline-block;
   } 
 
   .dot {
     width: 10px;
     height: 10px;
-    top: -490px;
+    top: 0px;
     margin: 0 2;
     display: inline-block;
   }
@@ -502,10 +502,11 @@
 
 
   .page-paragraph {
+    width: 100%;
     height: auto;
     position: relative;
-    top: 50px;
-    margin-bottom: 50px;
+    top: -12px;
+    margin: 0 auto;
   }
 
   .paragraph p {
