@@ -141,7 +141,7 @@
    
   .typed-cursor {
     font-size: 30px;
-    top: -5px;
+    top: -10px;
     left: 1px;
   } 
 
@@ -158,7 +158,7 @@
   }
 
   #words {
-    top: -25px;
+    top: -22px;
   }
 
 
