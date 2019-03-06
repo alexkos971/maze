@@ -21,7 +21,7 @@ jQuery(document).ready(function() {
 
 setTimeout(function() {
 	var preloader = document.getElementById("preloader").style.display = "none";
-	},5000);
+	},3700);
 
 
 function f1(){
