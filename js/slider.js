@@ -25,5 +25,5 @@ setTimeout(function() {
 
 
 function f1(){
-	alert("Thanks for visit my web-page");
+	alert("Thanks for visitings my web-page");
 }
