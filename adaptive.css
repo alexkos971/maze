@@ -35,7 +35,7 @@
   .second-word {
     display: block;
     position: relative;
-    top: -490px;
+    top: -420px;
   }
 
   .second-title {
@@ -311,7 +311,7 @@
     position: relative;
     top: -28px;
     width: 100%;
-    padding-bottom: 10px;
+    padding-bottom: 12px;
   }
 
   .head {
@@ -506,7 +506,7 @@
 
   .paragraph li {
     position: relative;
-    top: -20px;
+    top: -10px;
     left: -40px;
     line-height:;
 }
