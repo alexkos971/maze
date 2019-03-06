@@ -28,6 +28,39 @@
     display: none;
   }
 
+  .pre-img {
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 20%;
+    text-align: center;
+    justify-content: center;
+}
+
+.pre-img img {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    position: relative;
+    text-align: center;
+    -webkit-animation-name:             rotate; 
+    -webkit-animation-duration:         .6s; 
+    -webkit-animation-iteration-count:  infinite;
+    -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to { 
+    -webkit-transform: rotate(359deg);
+  }
+}
+
+
+
+
   /*MAZE*/
 
   .second-word {
@@ -106,25 +139,25 @@
   }
    
   .typed-cursor {
-    font-size: 15px;
+    font-size: 30px;
     top: -5px;
     left: 1px;
   } 
 
   #parentheses {
-    font-size: 15px;
+    font-size: 25px;
     top: 150px;
     
   }
 
 
   #parentheses p {
-    font-size: 15px;
+    font-size: 25px;
     margin-left: 3px;
   }
 
   #words {
-    top: -17px;
+    top: -25px;
   }
 
 
@@ -138,7 +171,7 @@
     line-height: 15px;
     letter-spacing: 2px;
     z-index: 3;
-    background-color: #303133;
+    background-color: #212121;
     width: 200px;
     height: 1000%;
     position: absolute;
@@ -147,21 +180,6 @@
     transform: translateX(100%);
     transition: 0.5s;
   }
-
-  #glide {
-    transform: rotate(90deg);
-    position: relative;
-    top: 115px;
-    left: -92px;
-    animation: hr 1s ease;  
-  }
-      #glide-2 {
-        transform: rotate(90deg);
-        position: relative;
-        top: 130px;
-        left: -92px;
-        animation: hr 1s ease;  
-      }
 
   .active {
     animation: hr 1s ease;
@@ -187,23 +205,29 @@
   }
 
 
-
-
+  .nav-mob h2 {
+    font-size: 25px;
+    color: #349e65;
+    font-family: sans;
+    font-weight: normal;
+    text-align: center;
+  }
 
   .nav-mob ul {
     position: relative;
-    top: -60px;
+    top: 0px;
   }
 
   .nav-mob li {
-    list-style: none;
     width: 200px;
+    list-style: none;
     position: relative;
-    left: -40px;
+    left: -60px;
   }
 
   .nav-mob li:hover {
     background-color: #626870;
+    left: 8px;
   }
 
   #avatar {
@@ -221,88 +245,87 @@
       height: 22px;
       position: relative;
       display: block;
-      left: 150px;
+      right: -85%;
       top: -110px;
       margin-bottom: 17px;
     }
    
-   .nav-mob li:hover #icons-q{
-      transform: rotate(360deg);
-    }
 
   .nav-mob li a {
-      font-family: Roboto,serif;
-      font-size: 15px;
+      font-family: monospace;
+      font-size: 25px;
       position: relative;
-      top: 2px;
-      left: 20px;
+      top: 7px;
+      left: 40px;     
+  }
+
+
+  /*only for animation*/
+  .nav-mob li {
+    transition: .2s all;
   } 
 
-
-
   .menu-active {
+    width: 100%;
     height: 1000px;
-    transform: translateX(-15%);
+    transform: translateX(-9.5%);
     }
 
     .menu-active hr {
       position: relative;
       width: 90%;
       top: 40px;
+      left: -40px;
   }
   #q {
     position: relative;
-    top: 45px;
-    height: 30px;
-    width: 300px;
+    top: 22px;
+    height: 35px;
+    width: 350px;
   }
     #w {
       position: relative;
-      top: 55px;
-      height: 30px;
+      top: 32px;
+      height: 35px;
+      width: 350px;
     }
       #e {
       position: relative;
-      top: 65px;
-      height: 30px;
+      top: 42px;
+      height: 35px;
+      width: 350px;
       }
-        #r{
+      #r{
         position: relative;
-        top: 75px;
-        height: 30px;
+        top: 52px;
+        height: 35px;
+        width: 350px;
       }
         #t{
           position: relative;
-          top: 85px;
-          height: 30px;
+          top: 62px;
+          height: 35px;
+          width: 350px;
       }
 
   #icons-q {
-    top: -189px;
+    top: -173px;
   }
     #icons-w {
-      top: -189px;
+      top: -168px;
     }
       #icons-e {
-        top: -187px;
+        top: -162px;
       }
         #icons-r {
-          top: -185px;
+          top: -155px;
         }
           #icons-t {
-            top: -185px;
+            top: -150px;
           }
 
 
-    .menu-active h6 {
-      font-size: 10px;
-      font-family: sans-serif;
-      font-size: 11px;
-      color: #fff;
-      text-align: center;
-      position: relative;
-      top: -150px;
-    }
+
 
     .nav-mob h6 {
       font-size: 10px;
@@ -311,7 +334,7 @@
       color: #fff;
       text-align: center;
       position: relative;
-      top: -170px;
+      top: -100px;
     }
 
 
@@ -441,38 +464,20 @@
   }
 
   .box  h1 {
-    font-size: 23px;
-    padding: 10px;
+    color: #282828;
+    font-size: 25px;
+    padding: 12px;
     text-align: all;
     font-family: sans-serif;
+    font-weight: normal;
     word-spacing: -1px;
-    line-height: 28px;
+    line-height: 26px;
   }
 
   .box  h3 {
-    font-size: 16px;
+    font-size: 13px;
     margin-left: 10px;
-    margin-top: 10px; 
-  }
-
-
-  .slideshow-container {
-    height: auto;
-    position: relative;
-    top: -30px;
-    margin-bottom: 20px;
-  }
-
-  .slideshow-container img {
-    max-width: 100%;
-    height: auto;
-    top: 0px;
-    margin-top: 5px;
-    margin: 0 auto;
-    }
-
-  .prev, .next {
-     display: none;
+    margin-top: 7px; 
   }
  
   .text {
@@ -481,7 +486,7 @@
 
   .button {
     position: relative;
-    top: -15px;
+    top: -22px;
     width: 100%;
     left: 0%; 
     display: inline-block;
@@ -496,8 +501,9 @@
   }
 
   .box hr {
-    margin-top: 10px;
+    margin-top: 0px;
     position: relative;
+    top: -4px;
   }
 
 
@@ -507,6 +513,7 @@
     position: relative;
     top: -12px;
     margin: 0 auto;
+    margin-bottom: -25px;
   }
 
   .paragraph p {
@@ -514,15 +521,10 @@
     margin-left: 10px;
     text-align: justify;
     margin-right: 10px;
-    margin-top: 20px;
+    margin-top: 14px;
     margin-bottom: -5px;
   }
 
-  .paragraph hr {
-    position: relative;
-    margin-top: 5px;
-    margin-bottom: -5px;
-  }
 
   main {
         display: none;
@@ -580,28 +582,6 @@
     .side1 h3 {
         font-size: 15px;
         top: 10px;
-    }
-
-    .side2 {     
-        margin-top: -20px;
-        height: 100px;
-        padding-bottom: -40px;
-    }
-
-    #z {
-        font-size: 60px;
-        position: relative;
-        top: 70px;
-    }
-
-    #p {
-        font-size: 20px;
-    }
-
-    #x {
-        font-size: 60px;
-        margin-top: 65px;
-        margin-bottom: 10px;
     }
 
     .side3 {

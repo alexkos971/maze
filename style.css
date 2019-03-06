@@ -20,6 +20,11 @@ body {
     display: inline-block;
 }
 
+.pre-img {
+    display: none;
+}
+
+
 
 /*MAZE*/
 .second-word {
@@ -217,6 +222,15 @@ body {
     top: -80px;
 }
 
+#upper {
+    width: 50px;
+    height: 50px;
+    background-color: #353535;
+    display: none;
+    position: fixed;
+    left: 30px;
+}
+
 
 header {
     
@@ -387,8 +401,9 @@ content {
 
 .box h1 {
     font-family: sans-serif;
+    font-weight: normal;
     font-size: 35px;
-    padding: 5px 20px;
+    padding: 22px 20px 3px;
 }
 
 .box h3 {
@@ -400,23 +415,22 @@ content {
     top: -20px;
 }
 
-/*.photo img {
-    width: 100%;
+ .box img {
+    width:  100%;
     height: auto;
     overflow: hidden;
+    position: relative;
+    top: -20px;
+     -webkit-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+       -webkit-transition: all 0.3s ease-out;
 }
-/*
-.photo img {
- -webkit-transition: all 0.5s ease-out;
- -o-transition: all 0.5s ease-out;
- -webkit-transition: all 0.5s ease-out;
- }
 
-    .photo img:hover{
+    .box img:hover{
      -webkit-transform: scale(0.9);
      -moz-transform: scale(0.9);
      -o-transform: scale(0.9);
-     }*/
+     }
 
 
 .button {
@@ -504,13 +518,6 @@ content {
 }
 
 
- .box img {
-    width:  100%;
-    height: auto;
-    position: relative;
-    top: -20px;
-}
-
  .box hr {
     width: 85%;
     color: #515151;
@@ -520,6 +527,7 @@ content {
  .page-paragraph {
     position: relative;
     top: -10px;
+    margin-bottom: -35px;
  }
 
 .paragraph p {
@@ -532,11 +540,10 @@ content {
     top: -10px; 
 }
 
-.paragraph hr {
-    margin-top: -20px;
-    margin-bottom: 0px;
-}
-
+.paragraph h3 {
+    position: relative;
+    left: 40px;
+  }
 
 
 .desk {
@@ -689,6 +696,7 @@ content {
     font-family: sans-serif;
     font-size: 25px;
     text-align: center;
+    font-weight: normal;
     position: relative;
     top: 40px;
 }
@@ -714,56 +722,55 @@ content {
     text-decoration: none;
     cursor: pointer;
 }
-    
+
+
 .side2 {
     width: 100%;
     height: auto;
+    margin-top: 60px;
     background-color: #fcfcfc;
     box-shadow: 1px 1px 5px;
-    margin-top: 30px;
-    margin-bottom: 270px;
-    padding-bottom: -100px;
 }
 
-  #p {
-        font-size: 25px;
-        text-align: justify;
-        position: relative;
-        top: -100px;
-        margin-left: 10px;
-        margin-right: 10px;
-        line-height: 25px;
-        }
-          
+#quotes-1, #quotes-2 {
+    height: 10px;
+    font-size: 50px;
+    margin: 0;
+    margin-bottom: 40px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+#quotes-1 {
+    position: relative;
+    top: -10px;
+}
+
+#quotes-2 {
+    position: relative;
+    top: -40px;
+    text-align: right;
+}
+
+#side2-text {
+    font-family: sans;
+    font-weight: normal;
+    position: relative;
+    top: -7px;
+    margin: 0px 13px 0px 20px;
+}
+
 .side2 p {
     font-family: sans-serif;
     color: #515151;
     position: relative;
-    top: -225px;
+    top: -15px;
     text-align: right;
     margin-right: 10px;
-    margin-bottom: -217px;
+    margin-top: -10px;
 }
-     #z {
-        font-size: 70px;
-        position: relative;
-        top: -20px;
-        margin-left: 5px;
-        }
-        #x {
-            font-size: 70px;
-            position: relative;
-            top: -200px;
-            right: 5px;;
-            text-align: right;
-            margin-bottom: 5px;
-            }
+    
 
-            .side2 hr {
-                position: relative;
-                top: 3px;
-                margin-top: 10px;
-            }
 
 .side3 {
     width: 100%;

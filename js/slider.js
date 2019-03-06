@@ -1,6 +1,27 @@
+jQuery(document).ready(function() {
+      var typed = new Typed("#words", {
+        strings: ["hello - world"],
+        typeSpeed: 100,
+        backSpeed: 40
+      });
+
+      $('#check-menu').on('click', function(){
+        $('.nav-mob').toggleClass('menu-active');
+        $('.menu-active').slideRight(1000);
+
+
+      var active = ('#glide');
+        active.toggleClass('.active');
+      //$('.contant').css('opacity', '.2');
+      //$('.container').toggleClass('container-active');
+      });
+    });
+
+
+
 setTimeout(function() {
 	var preloader = document.getElementById("preloader").style.display = "none";
-	},11000);
+	},4700);
 
 
 function f1(){
@@ -36,20 +57,3 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block"; 
   dots[slideIndex-1].className += " active";
 }
-
-/*function check() {
-  
-  var nav = document.getElementsByClassName("nav-mob");
-  var arr = [0,1];
-
-    style = nav[0].style;
-    style.right = 0 + "px";
-    
-/*style = nav[0].style;
-        style.display = "inline-block";*/
-    
-
-    /*var nav = document.getElementsByClassName("nav").value;
-    nav.styleSheet.display = "inline-block";*/
-
-//}

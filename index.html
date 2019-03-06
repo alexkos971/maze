@@ -5,14 +5,12 @@
 
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<link rel="icon" type="images" href="images\лабиринт.png">
+		<link rel="icon" type="images" href="images\maze.png">
 		
 		<link rel="stylesheet" type="text/css" href="style.css"/>
 
 		<link rel="stylesheet" type="text/css" href="adaptive.css">
 
-		<script src="js\slider.js" type="text/javascript"></script>
-		
 		<script src="js\jquery-3.3.1.min.js"></script>
 		
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
@@ -20,7 +18,9 @@
 
 <body>
 	
-	<!--<div class="page-preloader" id="preloader">	
+<!----><div class="page-preloader" id="preloader">
+
+			<div class="pre-img"><img src="images\maze.png"></div>	
 
 				<div class="preloader-text">
 					 <div id="parentheses"> < <p id="words"></p> /> </div>
@@ -36,22 +36,22 @@
 					</div>
 				</div>
 
-				<div class="second-word">
+				<!--<div class="second-word">
 					<div class="second-title">
 						<h1>MAZE</h1>
 						<hr id="first-hr" color="#fff"align="left"/>
 						<hr id="second-hr" color="#fff"align="left"/>
 						<hr id="thirth-hr" color="#fff"align="left"/>
 					</div>
-				</div>
-		</div>-->
+				</div>-->
+		</div>
 
 	<header>
 
 	<div class="head">
 		
 		<div class="logo">
-			<img src="images\программист.jpg">
+			<img src="images\maze.png">
 			<span>MAZE</span>
 			<hr align="right" color="white">
 		</div>
@@ -78,8 +78,8 @@
 	</div>
 		
 		<div class="nav-mob">
-			<hr id="glide" color="#fff">
-			<hr id="glide-2" color="#fff">
+
+			<h2>Navigation</h2>
 
 			<ul>
 				<li id="q"><a href="nav\about.html">About us
@@ -95,8 +95,8 @@
 			</ul>
 
 			<img src="images\user.png" id="icons-q">
-			<img src="images\portfolio.png" id="icons-w">
-			<img src="images\call.png" id="icons-e">
+			<img src="images\portfolio2.png" id="icons-w">
+			<img src="images\phone.png" id="icons-e">
 			<img src="images\more.png" id="icons-r">
 			<img src="images\settings.png" id="icons-t">
 			<h6>©Copyright 2019 Maze</h6>
@@ -131,7 +131,15 @@
 			<hr>
 				<div class="paragraph">
 					<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam debitis deserunt libero dolor quis tempore excepturi nulla quo voluptatum inventore. Et amet eos soluta voluptatem suscipit quisquam laboriosam officia consectetur debitis distinctio ratione alias sapiente fugit esse, explicabo dolore reprehenderit expedita adipisci laborum magni quasi, ad at. In voluptatibus voluptate rem sint quasi amet tenetur eos, dicta possimus totam laboriosam, similique blanditiis cupiditate excepturi, tempore, doloremque perferendis pariatur tempora aut quia inventore error beatae. Quibusdam aut incidunt veniam, rerum blanditiis ab, iure recusandae illo ducimus expedita ratione eaque voluptas accusamus magni vitae eligendi eius aspernatur voluptatibus, unde et, suscipit quos quod corporis.</p>
-						<hr>
+
+					<h3>Lorem ipsum dolor sit.</h3>
+						<ol>
+							<li>Angular</li>
+							<li>React</li>
+							<li>Vue</li>
+							<li>jQuery</li>
+							<li>Type</li>
+						</ol>
 					</div>
 				</div>	
 			</div>
@@ -224,9 +232,9 @@
 			</div>
 			
 			<div class="side2">
-				<h2 id="z">،،</h2>
-				<h2 id="p">Самая большая глупость — это делать то же самое и надеяться на другой результат</h2>
-				<h2 id="x">٫٫</h2>
+				<h2 id="quotes-1">،،</h2>
+				<h2 id="side2-text">Самая большая глупость — это делать то же самое и надеяться на другой результат.</h2>
+				<h2 id="quotes-2">٫٫</h2>
 				<p>©Альберт Эйнштейн</p>
 			</div>
 
@@ -349,30 +357,7 @@
 
 	</footer>
 
-
-	<script>
+	<script src="js\slider.js" type="text/javascript"></script>
 		
-	$('#check-menu').on('click', function(){
-		$('.nav-mob').toggleClass('menu-active');
-		$('.menu-active').slideRight(1000);
-
-
-		var active = ('#glide');
-			active.toggleClass('.active');
-		//$('.contant').css('opacity', '.2');
-		//$('.container').toggleClass('container-active');
-	});
-
-		jQuery(document).ready(function() {
-			var typed = new Typed("#words", {
-		   	strings: ["hello - world", "Max Lox", "Please, rate my page"],
-		   	typeSpeed: 100,
-		   	backSpeed: 40
-		  });
-		});
-	</script>
-		
-	
-
 </body>
 </html>
