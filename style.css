@@ -275,6 +275,9 @@ span {
 .nav-mob {
     display: none;
 }
+.menu-active {
+    display: none;
+}
 
 
 .nav-pc li {
