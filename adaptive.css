@@ -25,7 +25,7 @@
   }
 
   .preloader {
-    display: none;
+    display: block;
   }
 
 
@@ -33,7 +33,7 @@
   /*MAZE*/
 
   .second-word {
-    display: block;
+    display: none;
     position: relative;
     top: -420px;
   }
