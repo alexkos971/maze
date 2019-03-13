@@ -59,7 +59,7 @@ body {
 }
 
 #words {
-  top: -25px;
+  top: -23px;
 }
 
 
@@ -78,7 +78,7 @@ body {
   height: auto;
   position: relative;
   top: -80px;
-  right: -9.5%;
+  right: -9.6%;
   margin: 0 auto;
   transform: translateX(100%);
   transition: 0.5s;
