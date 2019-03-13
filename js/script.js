@@ -21,10 +21,10 @@ setTimeout(function() {
 function check() {
   var check = document.getElementById("check-menu");
   var first = document.getElementById("nav-mob");
-    first.classList.add("menu-active");
+    first.classList.remove("menu-active");
     
     if (check.checked) {
-      first.classList.remove("menu-active");
+      first.classList.add("menu-active");
     }
 }
 
