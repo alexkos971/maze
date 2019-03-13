@@ -32,7 +32,7 @@ function check() {
 window.onscroll = function() {
   var scrolled = window.pageYOffset || document.documentElement.scrollTop; 
 
-  if (scrolled > 150) {
+  if (scrolled > 250) {
     var popup = document.getElementById('popup');
     popup.style.display = "block";
   }
