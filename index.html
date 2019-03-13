@@ -16,11 +16,11 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
 	</head>
 
-<body>
+<body id="body">
 	
-<!----><div class="page-preloader" id="preloader">				
+<!--<div class="preloader" id="preloader">				
 			
-		<div class="preloader">
+		<div class="page-preloader">
 			<div class="loader">
 				<span id="first-square"></span>
 				<span id="second-square"></span>
@@ -33,7 +33,7 @@
 			 <div id="parentheses"> < <p id="words"></p> /> </div>
 		</div>
 		
-	</div>
+	</div>-->
 
 	<header>
 
@@ -62,6 +62,16 @@
 			<div  class="burger-line second"></div>
 			<div  class="burger-line third"></div>
 			<div  class="burger-line fourth"></div>
+		</div>
+
+		<div class="theme">
+			<input type="checkbox" id="set" onclick="set()">
+			<label for="set"></label>
+				
+			<div class="theme-tumbl">
+				<hr color="#fff">
+				<div id="tumbler"></div>
+			</div>		
 		</div>
 
 	</div>
@@ -94,10 +104,17 @@
 
 
 
-<content>
+<content id="content">
+
+	<div class="popup" id="popup">
+		<a href="#"><img src="images\popup.png"></a>
+	</div>
+
+	
 	<div class="container">
-		<div class="box">
-			<h1>First run in web-storage</h1>
+
+		<div class="box" id="box">
+			<h1 id="bamm">First run in web-storage</h1>
 			<h3>18 may 2019 Sunt inventore</h3>
 				
 				<!--<div class="photo">
@@ -147,7 +164,7 @@
 					      	</div>
 					      	
 					      		<div class="back">
-									<a href="https://tproger.ru/digest/top-20-web-sites-2016/"><div class="back-face">
+									<a href="#"><div class="back-face">
 										<h3>Woman</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ullam ducimus et facere nisi a dicta ea quae minima</p>
 									</div></a>
@@ -163,7 +180,7 @@
 					      	</div> 
 					      	
 					      	<div class="back">
-								<a href="https://tproger.ru/digest/top-20-web-sites-2016/"><div class="back-face">
+								<a href="#"><div class="back-face">
 										<h3>Smartphone</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ullam ducimus et facere nisi a dicta ea quae minima</p>
 									</div></a>
@@ -180,7 +197,7 @@
 					      	</div> 
 					      	
 					      	<div class="back">
-					      		<a href="https://tproger.ru/digest/top-20-web-sites-2016/"><div class="back-face">
+					      		<a href="#"><div class="back-face">
 										<h3>Car</h3>
 										<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod ullam ducimus et facere nisi a dicta ea quae minima</p>
 									</div></a>
@@ -194,7 +211,7 @@
 
 		<div class="sidebar">
 			
-			<div class="side1">	
+			<div class="side1" id="side1">	
 				<img src="images\кирка.jpg">
 				<h2>Проектирование 3D-моделей в Fusion 360</h2>
 				<a href="3d model\index.html"><h3>Прочитать</h3></a>		

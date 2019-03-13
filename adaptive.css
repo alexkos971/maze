@@ -12,7 +12,7 @@ body {
   overflow-x: hidden;
 } 
 
-.page-preloader {
+.preloader {
   display: inline-block;
   position: fixed;
   z-index: 8;
@@ -24,7 +24,7 @@ body {
   background-color: #262626; 
 }
 
-.preloader {
+.page-preloader {
   display: block;
   position: relative;
   top: 170px;
@@ -298,6 +298,7 @@ label {
 }
 
 .hamburger {
+  display: block;
   position: relative;
   left: -10px;
 }
@@ -345,6 +346,10 @@ content {
   width: 100%;
   position: relative;
   top: -32px;
+}
+
+.theme {
+  display: none;
 }
 
 .container {
@@ -423,7 +428,7 @@ content {
 }
 
 .paragraph p {
-  font-size: 15px;
+  font-size: 17px;
   margin-left: 10px;
   text-align: justify;
   line-height: 23px;
@@ -574,4 +579,22 @@ footer {
     display: block;
     position: relative;
     top: -40px; 
+}
+
+}
+
+@media screen and (min-width: 1200px) {
+  .preloader-text {
+    height: 100px;
+    position: relative;
+    top: 600px;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .preloader-text {
+    height: 100px;
+    position: relative;
+    top: 900px;
+  }
 }

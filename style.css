@@ -4,7 +4,7 @@ body {
     background-color: #eaeaea;
 }
 
-.page-preloader {
+.preloader {
     display: inline-block;
     position: fixed;
     z-index: 10;
@@ -31,7 +31,7 @@ body {
     display: none;
 }
 
-.preloader {
+.page-preloader {
     width: 100%;
     position: fixed;
     top: 300px;
@@ -190,10 +190,10 @@ body {
 
 .preloader-text {
     width: 100%;
-    height: 100%;
+    height: 150px;
     background-color: #262626;
     position: relative;
-    top: 300px;
+    top: 750px;
     font-size: 80px;
 }
 
@@ -209,7 +209,7 @@ body {
     height: 100%;
     display: flex;
     position: absolute;
-    top: 40%;
+    top: 0%;
     font-size: 80px;
     color: #fff;
     justify-content: center;
@@ -322,6 +322,7 @@ header a {
 
 
 .hamburger {
+    display: none;
     position: relative;
     top: -25px;
     left: 60px;
@@ -387,11 +388,102 @@ content {
     display: flex;
 }
 
+.popup {
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    display: none;
+    float: right;
+    text-align: right;
+    margin: 10% 88%;
+    z-index: 1;
+    -webkit-animation: popup 3s all linear infinite;
+}
+
+.popup img {
+    width: 60px;
+    height: 60px;
+}
+
+@keyframes popup {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    20% {
+       transform: rotate(20deg); 
+    }
+
+    40% {
+        transform: rotate(45deg);
+    }
+    
+    60% {
+        transform: rotate(-20deg);
+    }
+
+    80% {
+        transform: rotate(-10deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
 .container {
     width: 739px;/*65%*/
     height: auto;
     margin-right: 47px;
 }
+
+
+/*For dark theme*/
+.theme {
+    width: 50px;
+    height: 20px;
+    position: relative;
+    top: 28px;
+    left: -10px;
+}
+
+#set {
+    display: none;
+}
+
+.theme label {
+    width: 45px;
+    height: 18px;
+    position: relative;
+    top: -20px;
+    left: 0px;
+}
+
+.theme-tumbl {
+    display: inline;
+    width: 45px;
+    height: 18px;
+    position: relative;
+    top: -40px;
+}
+
+.theme-tumbl hr {
+    width: 35px;
+    background-color: #fff;
+}
+
+#tumbler {
+    width: 10px;
+    height: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background-color: #fff;/*#60c4c4*/
+    position: relative;
+    top: -16px;
+    left: 10px;
+    transition: .2s all;
+}
+
 
 .box {
     width: 100%;
@@ -434,9 +526,9 @@ content {
 }
 
     .box img:hover{
-     -webkit-transform: scale(0.9);
-     -moz-transform: scale(0.9);
-     -o-transform: scale(0.9);
+     -webkit-transform: scale(0.95);
+     -moz-transform: scale(0.95);
+     -o-transform: scale(0.95);
      }
 
 
@@ -540,9 +632,9 @@ content {
 .paragraph p {
     font-family: Helvetica;
     color: #515151;
-    font-size: 19px;
+    font-size: 17px;
     font-weight: normal;
-    line-height: 28px;
+    line-height: 1.6;
     margin-left: 30px;
     margin-right: 30px;
     position: relative;
@@ -825,12 +917,14 @@ content {
 #quotes-1 {
     position: relative;
     top: -10px;
+    font-weight: normal;
 }
 
 #quotes-2 {
     position: relative;
     top: -40px;
     text-align: right;
+    font-weight: normal;
 }
 
 #side2-text {

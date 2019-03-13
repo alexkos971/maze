@@ -5,11 +5,12 @@ jQuery(document).ready(function() {
         backSpeed: 40
       });
 
-      $('#check-menu').on('click', function() {
-        $('#nav-mob').toggleClass('menu-active');
-        
-      });
-    });
+  /*$('#check-menu').on('click', function() {
+    $('.page-menu').toggleClass('main-menu');
+    $('.main-menu').slideRight(1000);
+    //$('.head').css("background-color", "#000")
+  });*/
+});
 
 
 
@@ -20,14 +21,51 @@ setTimeout(function() {
 function check() {
   var check = document.getElementById("check-menu");
   var first = document.getElementById("nav-mob");
-    first.classList.remove("menu-active");
+    first.classList.add("menu-active");
     
     if (check.checked) {
-      first.classList.add("menu-active");
+      first.classList.remove("menu-active");
     }
+}
+
+
+window.onscroll = function() {
+  var scrolled = window.pageYOffset || document.documentElement.scrollTop; 
+
+  if (scrolled > 150) {
+    var popup = document.getElementById('popup');
+    popup.style.display = "block";
+  }
 }
 
 
 function f1(){
   alert("Thanks for visitings my web-page");
 }
+
+
+function set() {
+  var set = document.getElementById("set"); 
+  var theme = document.getElementById("tumbler");
+  var box = document.getElementById("box");
+  var side = {
+    sider: "Included dark theme"
+  };
+  
+  var bamm = document.getElementById("bamm");
+
+  if (set.checked) {
+    theme.style.left = 25 + "px";   
+    body.style.background = "#000";
+    box.style.background = "#282828";
+    bamm.style.color = "#fff";
+    //alert(side.sider);
+  }
+  else {
+    theme.style.left = 10 + "px";
+    body.style.background = "#eaeaea";
+    box.style.background = "#fff";
+    bamm.style.color = "#000";
+  }
+}
+
