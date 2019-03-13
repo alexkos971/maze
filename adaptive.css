@@ -78,7 +78,7 @@ body {
   height: auto;
   position: relative;
   top: -80px;
-  right: -9.6%;
+  right: -9.5%;
   margin: 0 auto;
   transform: translateX(100%);
   transition: 0.5s;
@@ -356,7 +356,7 @@ content {
 .popup {
     width: 45px;
     height: 45px;
-    margin: 30% 82%;
+    margin: 80% 82%;
 }
   
 .popup img {
@@ -403,7 +403,7 @@ content {
   font-size: 12px;
   font-weight: normal;
   margin-left: 20px;
-  margin-top: -9px;
+  margin-top: -7px;
 }
  
 .text {
