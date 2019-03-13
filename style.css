@@ -870,6 +870,8 @@ content {
     font-size: 25px;
     text-align: center;
     font-weight: normal;
+    padding-left: 20px;
+    padding-right: 20px;
     position: relative;
     top: 40px;
 }
