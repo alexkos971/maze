@@ -26,6 +26,13 @@ function check() {
     if (check.checked) {
       first.classList.add("menu-active");
     }
+      
+    var one = document.getElementByClassName('.theme'),
+    two = document.getElementByClassName('.menu-active');
+
+    while (one.lastChild) {
+      two.insertBefore(one.lastChild, two.firstChild);
+    }
 }
 
 
