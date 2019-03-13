@@ -351,6 +351,18 @@ content {
 .theme {
   display: none;
 }
+  
+.popup {
+    width: 40px;
+    height: 40px;
+    margin: 10% 80%;
+}
+  
+.popup img {
+    width: 40px;
+    height: 40px;
+}
+
 
 .container {
   width: 100%;
