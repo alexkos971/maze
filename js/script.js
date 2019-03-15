@@ -5,9 +5,9 @@ jQuery(document).ready(function() {
         backSpeed: 40
       });
 
-  /*$('#check-menu').on('click', function() {
-    $('.page-menu').toggleClass('main-menu');
-    $('.main-menu').slideRight(1000);
+ /*$('#check-menu').on('click', function() {
+    $('#menu-active').css('display', 'block');
+    $('#menu-active').slideRight(1000);
     //$('.head').css("background-color", "#000")
   });*/
 });
@@ -18,21 +18,17 @@ setTimeout(function() {
   var preloader = document.getElementById("preloader").style.display = "none";
   },3700);
 
+
 function check() {
   var check = document.getElementById("check-menu");
-  var first = document.getElementById("nav-mob");
-    first.classList.remove("menu-active");
-    
-    if (check.checked) {
-      first.classList.add("menu-active");
-    }
-      
-    var one = document.getElementByClassName('.theme'),
-    two = document.getElementByClassName('.menu-active');
+  var menu = document.getElementById("menu-active");
 
-    while (one.lastChild) {
-      two.insertBefore(one.lastChild, two.firstChild);
-    }
+  if (check.checked) {
+    menu.style.display = "block";
+  }
+  else {
+    menu.style.display = "none";
+  }
 }
 
 

@@ -272,13 +272,9 @@ span {
     left: 5px;
 }
 
-.nav-mob {
-    display: none;
-}
 .menu-active {
     display: none;
 }
-
 
 .nav-pc li {
     display: inline-block;
@@ -333,17 +329,16 @@ header a {
     display: none;
 }
 
-
-label {
-    display: block;
-    position: absolute;
-    top: 25px;
-    right: 70px;
-    width: 40px;
-    height: 35px;
+.theme label {
+    width: 45px;
+    height: 18px;
     cursor: pointer;
-    z-index: 2;
+    position: relative;
+    top: -22px;
+    left: 0px;
     line-height: 40px;
+    z-index: 2;
+    display: block;   
 }
 
 
@@ -451,13 +446,6 @@ content {
     display: none;
 }
 
-.theme label {
-    width: 45px;
-    height: 18px;
-    position: relative;
-    top: -20px;
-    left: 0px;
-}
 
 .theme-tumbl {
     display: inline;

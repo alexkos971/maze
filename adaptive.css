@@ -68,21 +68,20 @@ body {
 }
 
 .menu-active {
-  display: block;
+  width: 100%;
+  height: 1000px;
+  display: none;
   font-size: 28px;
   line-height: 15px;
   letter-spacing: 2px;
   z-index: 3;
   background-color: #212121;
-  width: 100%;
-  height: auto;
   position: relative;
   top: -80px;
-  right: -9.5%;
   margin: 0 auto;
-  transform: translateX(100%);
-  transition: 0.5s;
+  transition: 0.5s all;
 }
+
 
 .active {
   animation: hr 1s ease;
@@ -166,11 +165,6 @@ body {
   transition: .2s all;
 } 
 
-.menu-active {
-  width: 100%;
-  height: 1000px;
-  transform: translateX(-9.5%);
-}
 
 .menu-active hr {
   position: relative;
