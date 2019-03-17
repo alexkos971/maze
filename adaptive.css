@@ -43,8 +43,8 @@ body {
 .typed-cursor {
   font-size: 30px;
   top: -10px;
-  left: 3px;
-  margin-right: 2px;
+  left: 1px;
+  margin-right: 0px;
 } 
 
 #parentheses {
@@ -397,7 +397,7 @@ content {
   font-size: 12px;
   font-weight: normal;
   margin-left: 20px;
-  margin-top: -7px;
+  margin-top: -10px;
 }
  
 .text {
