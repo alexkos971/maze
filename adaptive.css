@@ -350,7 +350,7 @@ content {
 .popup {
     width: 45px;
     height: 45px;
-    margin: 95% 82%;
+    margin: 450px 82%;
 }
   
 .popup img {
@@ -391,13 +391,13 @@ content {
   word-spacing: -1px;
   line-height: 26px;
   margin-right: 8px;
+  margin-bottom: 4px;
 }
 
 .box  h3 {
   font-size: 12px;
   font-weight: normal;
   margin-left: 20px;
-  margin-top: -10px;
 }
  
 .text {
