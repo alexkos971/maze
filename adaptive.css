@@ -442,14 +442,15 @@ content {
   text-align: justify;
   line-height: 23px;
   margin-right: 10px;
-  margin-top: 14px;
+  margin-top: 0px;
   margin-bottom: -5px;
 }
 
 .paragraph h3 {
   position: relative;
-  left: 20px;
-  margin-top: 34px;
+  text-align: center;
+  left: 0;
+  margin: 45px 20px 0 20px;
   font-size: 22px;
 }
 
@@ -473,6 +474,10 @@ content {
 .paragraph i {
   font-size: 12px;
   top: -12px;
+}
+  
+.brackets {
+  padding-bottom: 40px;
 }
 
 
