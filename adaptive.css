@@ -398,7 +398,7 @@ content {
   font-size: 13px;
   font-weight: normal;
   margin-left: 20px;
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 .box h3 img {
@@ -419,8 +419,8 @@ content {
 } 
 
 .dot {
-  width: 11px;
-  height: 11px;
+  width: 10px;
+  height: 10px;
   top: 0px;
   margin: 0 2;
   display: inline-block;
