@@ -43,7 +43,7 @@ body {
 .typed-cursor {
   font-size: 30px;
   top: -10px;
-  left: 1px;
+  left: -1px;
   margin-right: 0px;
 } 
 
@@ -76,8 +76,8 @@ body {
   letter-spacing: 2px;
   z-index: 3;
   background-color: #212121;
-  position: relative;
-  top: -80px;
+  position: fixed;
+  top: -30px;
   margin: 0 auto;
   transition: 0.5s all;
 }
@@ -271,10 +271,10 @@ header {
 span {
   color: #f7f7f7;
   font-family: Roboto Slab,serif;
-  font-size: 23px;
+  font-size: 26px;
   position: relative;
   letter-spacing: 2px;
-  top: -12px;
+  top: -8px;
   left: -5px;
 }
 
@@ -383,13 +383,13 @@ content {
 
 .box  h1 {
   color: #282828;
-  font-size: 22px;
+  font-size: 28px;
   padding: 12px;
   text-align: all;
   font-family: sans-serif;
   font-weight: normal;
-  word-spacing: -1px;
-  line-height: 26px;
+  word-spacing: 0px;
+  line-height: 28px;
   margin-right: 8px;
   margin-bottom: 4px;
 }
@@ -398,6 +398,12 @@ content {
   font-size: 12px;
   font-weight: normal;
   margin-left: 20px;
+  margin-top: 20px;
+}
+
+.box h3 img {
+  width: 18px;
+  height: 20px;
 }
  
 .text {
@@ -413,8 +419,8 @@ content {
 } 
 
 .dot {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   top: 0px;
   margin: 0 2;
   display: inline-block;
@@ -437,11 +443,12 @@ content {
 }
 
 .paragraph p {
-  font-size: 17px;
-  margin-left: 10px;
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 13px;
+  margin-right: 13px;
   text-align: justify;
-  line-height: 23px;
-  margin-right: 10px;
+  line-height: 23px; 
   margin-top: 0px;
   margin-bottom: -5px;
 }
