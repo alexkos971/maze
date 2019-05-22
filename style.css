@@ -179,50 +179,6 @@ body {
 }
 
 
-
-/*auto-text*/
-
-.typed-cursor {
-    height: 130px;
-    font-size: 80px;
-}
-
-
-.preloader-text {
-    width: 100%;
-    height: 150px;
-    background-color: #262626;
-    position: relative;
-    top: 750px;
-    font-size: 80px;
-}
-
-#parentheses p {
-    margin-left: 30px;
-    font-size: 80px;
-    font-family: monospace;
-    color: #fff;
-}
-
-#parentheses {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    position: absolute;
-    top: 0%;
-    font-size: 80px;
-    color: #fff;
-    justify-content: center;
-}
-
-#words {
-    font-size: 80px;;
-    text-align: center;
-    position: relative;
-    top: -80px;
-}
-
-
 header {
     position: relative;
     top: 2px;
@@ -486,7 +442,7 @@ content {
     font-family: sans-serif;
     font-weight: normal;
     text-align: left;
-    font-size: 40px;
+    font-size: 50px;
     padding: 25px 30px 3px;
     margin-right: 50px;
     margin-bottom: 20px;
