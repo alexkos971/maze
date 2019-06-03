@@ -5,18 +5,10 @@ jQuery(document).ready(function() {
         backSpeed: 40
       });
 
- /*$('#check-menu').on('click', function() {
-    $('#menu-active').css('display', 'block');
-    $('#menu-active').slideRight(1000);
-    //$('.head').css("background-color", "#000")
-  });*/
-});
-
-
 
 setTimeout(function() {
   var preloader = document.getElementById("preloader").style.display = "none";
-  },3700);
+  }, 3500);
 
 
 function check() {
