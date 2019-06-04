@@ -1,14 +1,6 @@
-jQuery(document).ready(function() {
-      var typed = new Typed("#words", {
-        strings: ["hello - world"],
-        typeSpeed: 100,
-        backSpeed: 40
-      });
-
-
 setTimeout(function() {
   var preloader = document.getElementById("preloader").style.display = "none";
-  }, 3500);
+  }, 2000);
 
 
 function check() {
@@ -39,7 +31,7 @@ function f1(){
 }
 
 
-function set() {
+/*function set() {
   var set = document.getElementById("set"); 
   var theme = document.getElementById("tumbler");
   var box = document.getElementById("box"),
@@ -78,5 +70,5 @@ function set() {
     dark.style.color = "#000";
     dark2.style.color = "#000";
   }
-}
+}*/
 

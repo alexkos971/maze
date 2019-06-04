@@ -429,7 +429,7 @@ content {
     font-family: 'Rubik Regular';
     font-weight: normal;
     text-align: left;
-    font-size: 55px;
+    font-size: 45px;
     padding: 20px 10px 0px 30px;
     margin-right: 10px;
     margin-bottom: 17px;
@@ -612,7 +612,7 @@ content {
     border-radius: 50%;
     display: inline-block;
     position: relative;
-    top: 7px;
+    top: 5px;
     font-family: sans;
     text-align: center;
     margin: 7px 14px;
@@ -623,9 +623,9 @@ content {
 
 .paragraph i {
     font-size: 14px;
+    font-family: Titillium Web;
     position: relative;
     top: -9px;
-    left: 1px;
 }
 
 #state-2 a {
@@ -710,9 +710,9 @@ content {
     text-decoration: none;
 }
 
-#desk-1-pod {
-    width: 42%;
-    height: 27px;
+#desk-1-more {
+    width: 20%;
+    height: 30px;
     position: relative;
     top: -200px;
     text-align: center;
@@ -721,28 +721,33 @@ content {
     font-size: 20px;
     font-family: sans-serif;
     font-weight: lighter;
-    border-radius: 20px;
+    border-radius: 4px;
     margin: 0 auto;
     padding-top: 5px;
     display: none;
-    transition: .7s all;
+    transition: .3s all;
 }
 
 .desk-1:hover img {
     filter: brightness(0.2);
 }
 
-.desk-1:hover #desk-1-h {
+.desk-1:hover #desk-1-title {
     top: -300px;
 }
 
-.desk-1:hover #desk-1-p {
+.desk-1:hover #desk-1-subtitle {
     top: -320px;
 }
 
-.desk-1:hover #desk-1-pod {
+.desk-1:hover #desk-1-more {
     top: -240px;
-    display: block;
+    display: block;  
+}
+
+#desk-1-more:hover {
+    border: 1px solid #1358c6;
+    color: #1358c6;
 }
 
 .desk-wrap {

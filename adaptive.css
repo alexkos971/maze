@@ -52,7 +52,8 @@ body {
   position: fixed;
   top: -15px;
   margin: 0 auto;
-  transition: 0.5s all;
+  transform: translateY(-50%);
+  transition: .4s ease;
 }
 
 
@@ -79,7 +80,7 @@ body {
 
 .menu-active h2 {
   font-size: 25px;
-  font-family: sans;
+  font-family: Dewberry Regular;
   font-weight: normal;
   color: #349e65;
   text-align: center;
@@ -127,6 +128,8 @@ body {
 .menu-active li a {
   font-family: monospace;
   font-size: 25px;
+  color: #fff;
+  text-decoration: none;
   position: relative;
   top: 7px;
   left: 40px;     
@@ -291,54 +294,6 @@ label {
 }
 
 
-.sidebar {
-  display: block;
-  width: 90%;
-  margin: 0 auto;
-  position: relative;
-  top: 370px;
-}
-
-.side_one {
-    width: 90%;
-    height: auto;
-    background-color: #fcfcfc;
-    box-shadow: 1px 1px 5px;
-    margin: 0 auto;
-    padding-bottom: 45px;
-}
-
-.side_two {
-    width: 90%;
-    height: auto;
-    margin-top: 60px;
-    background-color: #fcfcfc;
-    box-shadow: 1px 1px 5px;
-    margin: 60px auto;
-}
-
-.side_three_news li {
-    display: block;
-    height: 50px;
-    margin-bottom: 30px;
-    position: relative;
-    left: -10px;
-    align-items: center;
-    font-family: "Rubik Regular", sans-serif;
-}
-
-.side_three_news li:nth-child(2) {
-    margin-top: -4px;
-}
-
-.side_four {
-    width: 90%;
-    height: auto;
-    background-color: #fcfcfc;
-    box-shadow: 1px 1px 5px;
-    margin: 60px auto;
-    padding: 0px 0px 5px 0px;
-}
 
 content {
   justify-content: space-between;
@@ -346,18 +301,6 @@ content {
   width: 100%;
   position: relative;
   top: -32px;
-}
-
-.popup {
-    width: 50px;
-    height: 50px;
-    margin: 445px 82%;
-    display: none;
-}
-  
-.popup img {
-    width: 50px;
-    height: 50px;
 }
 
 
@@ -385,7 +328,7 @@ content {
 
 .box  h1 {
   color: #282828;
-  font-size: 43px;
+  font-size: 38px;
   padding: 12px;
   padding-top: 20px;
   text-align: all;
@@ -479,30 +422,20 @@ content {
   position: relative;
   left: 7px;
   top: 10px;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 
 .paragraph i {
-  font-size: 12px;
-  top: -13px;
+  font-family: 
+  font-size: 16px;
+  top: -7px;
 }
   
 .brackets {
   padding-bottom: 40px;
 }
 
-
-
-.desk {
-  display: block;
-  height: auto;
-}
-
-.wrap {
-  width: 90%;
-  margin-bottom: 170px;
-} 
 
 #a {
   font-size: 12px;
@@ -516,66 +449,61 @@ content {
   left: -7px;
 }
 
+
 .sidebar {
-  margin-top: -340px;
-  width: 100%;
+  display: block;
+  width: 90%;
   height: auto;
-}
-
-.side1 {
-  height: auto;
-  margin-top: -10px;
-  padding-bottom: 25px;
-}
-
-.side1 img {
-  width: 80px;
-  height: 80px;
+  margin: 0 auto;
+  position: relative;
   top: 30px;
 }
 
-.side1 h2 {
-  top: 20px;
-  font-size: 20px;
+.side_one {
+    width: 90%;
+    height: auto;
+    background-color: #fcfcfc;
+    box-shadow: 1px 1px 5px;
+    margin: 0 auto;
+    padding-bottom: 45px;
 }
 
-.side1 h3 {
-  font-size: 15px;
-  top: 10px;
+.side_two {
+    width: 90%;
+    height: auto;
+    margin-top: 60px;
+    background-color: #fcfcfc;
+    box-shadow: 1px 1px 5px;
+    margin: 60px auto;
 }
 
-#quotes-1 {
-  font-weight: normal;
-  top: -15px;
-}
-      
-
-.side3 {
-  height: auto;
-  margin-top: 30px;
-  padding-bottom: 5px;
+.side_three {
+  width: 90%;
 }
 
-.side3 h3 {
-  font-size: 18px;
+.side_three_news li {
+    display: block;
+    height: 50px;
+    margin-bottom: 30px;
+    position: relative;
+    left: -10px;
+    align-items: center;
+    font-family: "Rubik Regular", sans-serif;
 }
 
-.новости a {
-  font-size: 16px;
-  top: -20px;
+.side_three_news li:nth-child(2) {
+    margin-top: -4px;
 }
 
-.новости img {
-  width: 40px;
-  height: 40px;
-  position: relative;
-  top: -5px;
+.side_four {
+    width: 90%;
+    height: auto;
+    background-color: #fcfcfc;
+    box-shadow: 1px 1px 5px;
+    margin: 60px auto;
+    padding: 0px 0px 5px 0px;
 }
 
-#almaz img {
-  width: 40px;
-  height: 30px;
-}
 
 #hr {
   margin-top: -40px;
@@ -588,11 +516,30 @@ content {
 
 .desk-page {
   overflow: hidden;
-  width: 100%;
+  width: 90%;
   height: auto;
+  position: relative;
+  flex-wrap: wrap;
+  padding: 0;
 }
 
+.desk-1 {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+}
 
+#desk-1-more {
+  width: 80%;
+  transition: .3s;
+}
+  .desk-1:hover #desk-1-title {
+    top: -230px;
+  }
+    .desk-1:hover #desk-1-subtitle {
+      top: -250px;
+    }
 
 footer {
   width: 100%;
