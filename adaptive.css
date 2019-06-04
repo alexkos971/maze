@@ -52,7 +52,6 @@ body {
   position: fixed;
   top: -15px;
   margin: 0 auto;
-  transform: translateY(-50%);
   transition: .4s ease;
 }
 
@@ -210,22 +209,23 @@ body {
 
 
 header {
-  position: relative;
-  top: -8px;
+  position: fixed;
+  top: -10px;
   width: 100%;
+  height: 25px;
   padding-bottom: 12px;
+  z-index: 10;
 }
 
 .head {
   height: 25px;
   width: 100%;
   position: relative;
-  top: -7px;
 }
 
 .logo {
   position: relative;
-  top: 5px;
+  top: 0px;
 }  
 
 
@@ -274,7 +274,7 @@ label {
 
 .burger-line {
   position: absolute;
-  top: 31px;
+  top: 28px;
   right: 25px;
   width: 25px;
   height: 2px;
@@ -282,10 +282,10 @@ label {
   transition: 0.5s all;
 }
   .second, .third {
-    top: 40px;
+    top: 37px;
   }
     .fourth {
-        top: 49px;
+        top: 46px;
     }
 
 
@@ -300,10 +300,8 @@ content {
   display: block;
   width: 100%;
   position: relative;
-  top: -32px;
+  top: 50px;
 }
-
-
 
 
 .container {
@@ -460,7 +458,7 @@ content {
 }
 
 .side_one {
-    width: 90%;
+    width: 100%;
     height: auto;
     background-color: #fcfcfc;
     box-shadow: 1px 1px 5px;
@@ -469,7 +467,7 @@ content {
 }
 
 .side_two {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin-top: 60px;
     background-color: #fcfcfc;
@@ -477,8 +475,17 @@ content {
     margin: 60px auto;
 }
 
+#quotes-1 {
+    position: relative;
+    top: -20px;
+}
+
+#quotes-2 {
+  top: -40px;
+}
+
 .side_three {
-  width: 90%;
+  width: 100%;
 }
 
 .side_three_news li {
