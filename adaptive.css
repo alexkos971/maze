@@ -33,34 +33,7 @@ body {
 
 
 
-  /*MAZE*/
 
-.preloader-text {
-  top: 500px;
-  height: 50px;
-}
-   
-.typed-cursor {
-  font-size: 30px;
-  top: -10px;
-  left: -1px;
-  margin-right: 0px;
-} 
-
-#parentheses {
-  font-size: 25px;
-  top: 0px;
-}
-
-
-#parentheses p {
-  font-size: 25px;
-  margin-left: 2px;
-}
-
-#words {
-  top: -23px;
-}
 
 
 .nav-pc  {
@@ -270,7 +243,6 @@ header {
 
 span {
   color: #f7f7f7;
-  font-family: Roboto Slab,serif;
   font-size: 26px;
   position: relative;
   letter-spacing: 2px;
@@ -327,16 +299,45 @@ label {
   top: 370px;
 }
 
-.side1 {
-  width:  100%;
+.side_one {
+    width: 90%;
+    height: auto;
+    background-color: #fcfcfc;
+    box-shadow: 1px 1px 5px;
+    margin: 0 auto;
+    padding-bottom: 45px;
 }
 
-.side2 {
-  width: 100%;
+.side_two {
+    width: 90%;
+    height: auto;
+    margin-top: 60px;
+    background-color: #fcfcfc;
+    box-shadow: 1px 1px 5px;
+    margin: 60px auto;
 }
 
-.side3 {
-  width: 100%;
+.side_three_news li {
+    display: block;
+    height: 50px;
+    margin-bottom: 30px;
+    position: relative;
+    left: -10px;
+    align-items: center;
+    font-family: "Rubik Regular", sans-serif;
+}
+
+.side_three_news li:nth-child(2) {
+    margin-top: -4px;
+}
+
+.side_four {
+    width: 90%;
+    height: auto;
+    background-color: #fcfcfc;
+    box-shadow: 1px 1px 5px;
+    margin: 60px auto;
+    padding: 0px 0px 5px 0px;
 }
 
 content {
@@ -384,14 +385,14 @@ content {
 
 .box  h1 {
   color: #282828;
-  font-size: 40px;
+  font-size: 43px;
   padding: 12px;
   padding-top: 20px;
   text-align: all;
   font-family: sans-serif;
   font-weight: normal;
   word-spacing: 0px;
-  line-height: 37px;
+  line-height: 40px;
   margin-right: 8px;
   margin-bottom: 13px;
   margin-top: 10px;
