@@ -15,7 +15,7 @@ body {
 .preloader {
   display: inline-block;
   position: fixed;
-  z-index: 8;
+  z-index: 11;
   top: -30px;
   width: 100%;
   height: 110%;
@@ -215,6 +215,7 @@ header {
   height: 25px;
   padding-bottom: 12px;
   z-index: 10;
+  opacity: 0.95;
 }
 
 .head {
@@ -477,7 +478,7 @@ content {
 
 #quotes-1 {
     position: relative;
-    top: -20px;
+    top: -30px;
 }
 
 #quotes-2 {
@@ -503,7 +504,7 @@ content {
 }
 
 .side_four {
-    width: 90%;
+    width: 100%;
     height: auto;
     background-color: #fcfcfc;
     box-shadow: 1px 1px 5px;
@@ -528,6 +529,7 @@ content {
   position: relative;
   flex-wrap: wrap;
   padding: 0;
+  top: 50px;
 }
 
 .desk-1 {
