@@ -16,29 +16,10 @@ function check() {
 }
 
 
-window.onscroll = function() {
-  var scrolled = window.pageYOffset || document.documentElement.scrollTop; 
-
-  if (scrolled > 250) {
-    var popup = document.getElementById('popup');
-    popup.style.display = "block";
-  }
-}
-
-
-function f1(){
-  alert("Thanks for visitings my web-page");
-}
-
-
-/*function set() {
+function set() {
   var set = document.getElementById("set"); 
   var theme = document.getElementById("tumbler");
-  var box = document.getElementById("box"),
-      side = document.getElementById("side1"),
-      side2 = document.getElementById("side2"),
-      side3 = document.getElementById("side3"),
-      side4 = document.getElementById("side4"),      
+  var box = document.getElementById("box"),   
       desk = document.getElementById("desk-page");
   
   var dark = document.getElementById("dark"),
@@ -49,26 +30,14 @@ function f1(){
     theme.style.left = 25 + "px";   
     body.style.background = "#000";
     box.style.background = "#282828";
-    side.style.background = "#282828";
-    side2.style.background = "#282828";
-    side3.style.background = "#282828";
-    side4.style.background = "#282828";
-    desk.style.background = "#282828";
-    dark.style.color = "#fff";
-    dark2.style.color = "#fff"; 
+    desk.style.background = "#282828";; 
   }
   else {
 
     theme.style.left = 10 + "px";
     body.style.background = "#eaeaea";
     box.style.background = "#fff";
-    side.style.background = "#fff";
-    side2.style.background = "#fff";
-    side3.style.background = "#fff";
-    side4.style.background = "#fff";
     desk.style.background = "#fff";
-    dark.style.color = "#000";
-    dark2.style.color = "#000";
   }
-}*/
+}
 

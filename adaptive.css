@@ -327,7 +327,7 @@ content {
 
 .box  h1 {
   color: #282828;
-  font-size: 38px;
+  font-size: 40px;
   padding: 12px;
   padding-top: 20px;
   text-align: all;
@@ -431,7 +431,7 @@ content {
   top: -7px;
 }
   
-.brackets {
+.state-3 {
   padding-bottom: 40px;
 }
 
@@ -478,7 +478,7 @@ content {
 
 #quotes-1 {
     position: relative;
-    top: -30px;
+    top: -20px;
 }
 
 #quotes-2 {
@@ -508,7 +508,7 @@ content {
     height: auto;
     background-color: #fcfcfc;
     box-shadow: 1px 1px 5px;
-    margin: 60px auto;
+    margin: 60px auto 130px;
     padding: 0px 0px 5px 0px;
 }
 
@@ -529,7 +529,6 @@ content {
   position: relative;
   flex-wrap: wrap;
   padding: 0;
-  top: 50px;
 }
 
 .desk-1 {
