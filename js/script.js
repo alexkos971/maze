@@ -6,9 +6,12 @@ setTimeout(function() {
 function check() {
   var check = document.getElementById("check-menu");
   var menu = document.getElementById("menu-active");
+  var theme = document.getElementById("theme");
 
   if (check.checked) {
     menu.style.display = "block";
+    menu.appendChild(theme);
+    theme.style.display = "block";
   }
   else {
     menu.style.display = "none";
