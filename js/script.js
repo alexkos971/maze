@@ -19,28 +19,21 @@ function check() {
 }
 
 
-function set() {
+function set(href) {
   var set = document.getElementById("set"); 
   var theme = document.getElementById("tumbler");
-  var box = document.getElementById("box"),   
-      desk = document.getElementById("desk-page");
-  
-  var dark = document.getElementById("dark"),
-      dark2 = document.getElementById("dark2");
+  var basicly = document.createElement("link");
+  basicly.rel = "stylesheet";
+  basicly.href = "dark.css";
+  basicly.id = "delete";
 
-  if (set.checked) {
-    
-    theme.style.left = 25 + "px";   
-    body.style.background = "#000";
-    box.style.background = "#282828";
-    desk.style.background = "#282828";; 
+  if (set.checked) {  
+    theme.style.left = 25 + "px";
+    document.head.appendChild(basicly);   
   }
   else {
-
     theme.style.left = 10 + "px";
-    body.style.background = "#eaeaea";
-    box.style.background = "#fff";
-    desk.style.background = "#fff";
+      document.getElementById("delete").remove();
   }
 }
 
