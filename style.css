@@ -5,24 +5,36 @@ body {
 }
 
 @font-face {
-font-family: 'Rubik Regular';
-src: url('fonts/Rubik/Rubik-Regular.eot');
-src: url('fonts/Rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
-url('fonts/Rubik/Rubik-Regular.woff') format('woff'),
-url('fonts/Rubik/Rubik-Regular.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+    font-family: 'Rubik Regular';
+    src: url('fonts/Rubik/Rubik-Regular.eot');
+    src: url('fonts/Rubik/Rubik-Regular.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Rubik/Rubik-Regular.woff') format('woff'),
+    url('fonts/Rubik/Rubik-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 @font-face {
-font-family: 'Dewberry Regular';
-src: url('fonts/Dewberry.eot');
-src: url('fonts/Dewberry.eot?#iefix') format('embedded-opentype'),
-url('fonts/Dewberry.woff') format('woff'),
-url('fonts/Dewberry.ttf') format('truetype');
-font-weight: normal;
-font-style: normal;
+    font-family: 'Dewberry Regular';
+    src: url('fonts/Dewberry.eot');
+    src: url('fonts/Dewberry.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Dewberry.woff') format('woff'),
+    url('fonts/Dewberry.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
+
+@font-face {
+    font-family: 'Mayonez Light';
+    src: url('fonts/Mayonez light/Mayonez-Light.eot');
+    src: url('fonts/Mayonez light/Mayonez-Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Mayonez light/Mayonez-Light.woff') format('woff'),
+    url('fonts/Mayonez light/Mayonez-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 
 .preloader {
     display: inline-block;
@@ -251,11 +263,8 @@ span {
 }
 
 .nav-pc li:hover a {
-    border: 1px solid #fff;
-    color: #000;
-    background-color: #fff;
-    position: relative;
-    font-weight: bold;
+    font-size: 23px;
+    color: #12cbc4;
 }
 
 .nav-pc li a {
@@ -417,11 +426,12 @@ content {
 }
 
 .box h1 {
-    font-family: 'Rubik Regular';
+    font-family: "Rubik Regular", sans-serif;
     font-weight: normal;
     text-align: left;
-    font-size: 45px;
-    padding: 20px 10px 0px 30px;
+    letter-spacing: 1px;
+    font-size: 33px;
+    padding: 23px 10px 0px 30px;
     margin-right: 10px;
     margin-bottom: 17px;
 }
@@ -431,7 +441,8 @@ content {
     font-weight: normal;
     color: #515151;
     font-size: 15px;
-    margin-left: 50px;
+    text-align: left;
+    margin-left: 31px;
     position: relative;
     top: -20px;
 }
@@ -554,6 +565,7 @@ content {
  }
 
  
+ /*all page*/
 .page-paragraph {
     position: relative;
     top: -10px;   
@@ -574,22 +586,23 @@ content {
     position: relative;
     left: 20px;
     margin-top: 40px;
+    font-family: "Rubik Regular";
     font-size: 25px;
+    color: #000;
   }
 
 .paragraph ol {
     position: relative;
-    top: -20px;
+    top: -10px;
     left: 10px;
-    line-height:
 } 
 
 .paragraph li {
     position: relative;
     list-style: none;
     font-size: 15px;
-    font-weight:normal;
-    font-family: Verdana;
+    font-weight: bold;
+    font-family: 'Dewberry Regular';
     -webkit-transition: 0.2s all;
 }
 
@@ -598,12 +611,12 @@ content {
 }
 
 .paragraph span {
-    color: white;
-    background: #000;
+    color: black;
     border-radius: 50%;
+    border: 2px solid black;
     display: inline-block;
     position: relative;
-    top: 5px;
+    top: 10px;
     font-family: sans;
     text-align: center;
     margin: 7px 14px;
@@ -613,12 +626,14 @@ content {
 }
 
 .paragraph i {
-    font-size: 14px;
+    font-size: 15px;
     font-family: Titillium Web;
     position: relative;
     top: -9px;
 }
 
+
+/*states*/
 .state-2 a {
     color: #000;
     text-decoration: none;
@@ -637,7 +652,7 @@ content {
     font-size: 28px;
     margin-bottom: 40px;
     letter-spacing: 2px;
-    font-family: "Rubik Regular", sans-serif;
+    font-family: "Mayonez light", sans-serif;
 }
 
 .state-3 img {
@@ -648,6 +663,8 @@ content {
 }
 
 
+
+/*news squares*/
 .desk-page {
     width: 90%;
     height: 500px;
@@ -763,8 +780,7 @@ content {
 }
 
 
-
-
+/*sidebar*/
 .sidebar {
     width: 341px;
     margin-top: 60px;
@@ -897,11 +913,18 @@ content {
 }
 
 .side_three h3 {
-    font-family: Helvetica;
+    font-family: 'Dewberry Regular', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
     color: #515151;
     text-align: center;
     position: relative;
     top: 12px;
+}
+
+.side_three hr {
+    width: 90%;
+    border: 0.5px #333 solid; 
 }
 
 .side_three_news {
@@ -915,7 +938,7 @@ content {
     margin-left: 10px;
     position: relative;
     top: -28px;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: normal;
     letter-spacing: 1px;
     color: #515151;
@@ -937,10 +960,6 @@ content {
     font-family: "Rubik Regular", sans-serif;
 }
 
-.side_three_news li:nth-child(3) {
-    top: 10px;
-}
-
 .side_three_news img {
     width: 50px;
     height: 50px;
@@ -959,11 +978,6 @@ content {
     -moz-transform: scale(0.9);
     -o-transform: scale(0.9);
 }
-
-.side_three_news li:nth-child(2) {
-    margin-top: 0px;
-}
-
 
 .side_three_news li:nth-child(3) img {
     width: 50px;
@@ -1021,28 +1035,26 @@ content {
     color: #fff;
     position: relative;
     top: 100px;
-    font-size: 70px;
+    font-size: 60px;
     align-content: center;
     letter-spacing: 3px;
-    font-family: monospace;
+    font-family: 'Rubik Regular', sans-serif;
     text-align: center;
 }
 
 .side_four p {
     position: relative;
     top: 10px;
-    margin: 0px 13px 40px 13px;
-    text-align: justify;
-    text-indent: 20px;
-    font-size: 20px;
-    line-height: 30px;
+    margin: 10px 13px 45px 15px;
+    text-indent: 30px;
+    line-height: 1.6;
+    font-size: 17px;
     font-family: 'Dewberry Regular', sans-serif;
     font-weight: bold;
 }
 
-
 footer {
-    width: 95%;
+    width: 100%;
     height: 580px;
     margin: 0 auto;
     margin-top: 200px;
@@ -1126,27 +1138,37 @@ footer {
     padding: 20px;
     position: relative;
     right: 25px;
+    margin-right: 10px;
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid white;
+    border-radius: 50%; 
 }
 
 #insta {
-    width: 27px;
-    height: 25px;
+    width: 20px;
+    height: 18px;
     transition: 0.4s all;
 }
     #vk {
-        width: 47px;
-        height: 25px;
+        width: 33px;
+        height: 18px; 
         transition: 0.4s all;
+        position: relative;
+        right: 7px;
     }
         #face {
-            width: 22px;
-            height: 25px;
+            width: 16px;
+            height: 18px;
             transition: 0.4s all;
         }
             #telega {
-                width: 32px;
-                height: 25px;
+                width: 25px;
+                height: 18px;
                 transition: 0.4s all;
+                position: relative;
+                right: 4px;
             }
 .social img:hover {
     transform: scale(1.2);
@@ -1155,12 +1177,14 @@ footer {
 .copyright {
     margin: 0 auto;
     text-align: center;
+    position: relative;
+    top: 17px;
 }
 
 .copyright h2 {
     color: #515151;
     margin-top: 15px;
-    font-family: sans-serif;
+    font-family: 'Dewberry Regular', sans-serif;
     font-size: 20px; 
 }
 

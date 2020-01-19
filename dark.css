@@ -33,6 +33,7 @@ body {
 
 .side_three hr {
 	color: #b7b7b7;
+	border: 0.5px #b7b7b7 solid;
 }
 
 .side_three_news img {
@@ -70,6 +71,10 @@ body {
 
 .paragraph li {
 	color: #b7b7b7;
+}
+
+.paragraph span {
+border: 2px solid #1b8e64;
 }
 
 .state-2 a {

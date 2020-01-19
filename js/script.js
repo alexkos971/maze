@@ -19,21 +19,35 @@ function check() {
 }
 
 
-function set(href) {
-  var set = document.getElementById("set"); 
-  var theme = document.getElementById("tumbler");
-  var basicly = document.createElement("link");
+var basicly = document.createElement("link");
   basicly.rel = "stylesheet";
   basicly.href = "dark.css";
   basicly.id = "delete";
 
+function set(href) {
+  var set = document.getElementById("set"); 
+  var theme = document.getElementById("tumbler");
+  
   if (set.checked) {  
     theme.style.left = 25 + "px";
-    document.head.appendChild(basicly);   
+    document.head.appendChild(basicly);  
+    
+    var ques = confirm("Добавить темную тему по умолчанию ?");
+      if (ques == true) {
+        localStorage.setItem("theme", "default");  
+      }
   }
   else {
     theme.style.left = 10 + "px";
       document.getElementById("delete").remove();
+      localStorage.removeItem("theme");
   }
 }
+
+function look() {
+  if (localStorage.getItem("theme") == "default") {
+    document.head.appendChild(basicly); 
+  }
+}
+  look();
 
